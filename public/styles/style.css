@@ -1,13 +1,61 @@
 /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
 /* HTML5 display-role reset for older browsers */
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+body {
+    line-height: 1
+}
+ol, ul {
+    list-style: none
+}
+blockquote, q {
+    quotes: none
+}
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
+}
+ins {
+    text-decoration: none
+}
+del {
+    text-decoration: line-through
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
 /* box-sizing to most items */
-body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+body, header, main, footer, div, article, aside, details, figcaption, figure, hgroup, menu, nav, input, textarea, select, a, p, ul, ol, li, span {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 /* end reset */
 
 body {
     min-width: 360px;
+}
+.mainContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .homePageHeader {
     display: flex;
@@ -25,7 +73,7 @@ body {
     color: #fff;
     padding: 20px 0 20px 0;
     text-align: center;
-    background: linear-gradient(to bottom, #21abc7 ,#616db3 );
+    background: linear-gradient(to bottom, #21abc7, #616db3);
 }
 .introHeaderText {
     font-size: 21px;
@@ -46,7 +94,7 @@ body {
     line-height: 43px;
 }
 .videoSection {
-    padding: 60px 10px 10px 10px;
+    padding: 60px 0px 10px 0px;
 }
 .videoSection h3 {
     font-size: 16px;
@@ -66,7 +114,7 @@ body {
     width: 100%;
     padding: 60px 20px 60px 20px;
     text-align: center;
-    background-color: #F6F8F8;
+    background-color: #ebebeb;
 }
 .startCardsArea h3 {
     font-size: 21px;
@@ -123,6 +171,7 @@ body {
     padding: 12px;
     border-top: 1px solid #e2e8e9;
     background-color: #F6F8F8;
+    border-radius: 8px;
 }
 .linkBottom p {
     font-size: 12px;
@@ -140,7 +189,6 @@ body {
 }
 .howItWorks {
     width: 100%;
-    margin: 0px 20px 0 20px;
     padding-top: 42px;
 }
 .howItWorks h3 {
@@ -155,7 +203,6 @@ body {
 }
 .howSection img {
     width: 290px;
-
 }
 .howSection h4 {
     text-align: left;
@@ -171,7 +218,7 @@ body {
     width: 100%;
     position: relative;
     padding: 60px 20px 60px 20px;
-    background-color: #F6F8F8;
+    background-color: #ebebeb;
 }
 .crowdArea h3 {
     font-size: 21px;
@@ -235,13 +282,13 @@ body {
 .price1 {
     width: 100%;
     height: 480px;
-    background: linear-gradient(#f68a2e,#f25852);
+    background: linear-gradient(#f68a2e, #f25852);
     padding: 75px;
 }
 .price2 {
     width: 100%;
     height: 480px;
-    background: linear-gradient(#21abc7,#616db3);
+    background: linear-gradient(#21abc7, #616db3);
     padding: 75px;
 }
 .dollar {
